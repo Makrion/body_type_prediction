@@ -1,40 +1,40 @@
 #### when tested on row baised test data:-
 |          Classifier          | Accuracy | F1 Score |
 |------------------------------|----------|----------|
-| <class 'sklearn.dummy.DummyClassifier'> fot test | 12.5 | 2.7778 |
+| <class 'sklearn.dummy.DummyClassifier'> fot test | 12.3874 | 2.7307 |
 | <class 'sklearn.dummy.DummyClassifier'> fot train | 25.0 | 10.0 |
 |------------------------------|----------|----------|
-| <class 'sklearn.linear_model._perceptron.Perceptron'> fot test | 61.1486 | 56.4309 |
-| <class 'sklearn.linear_model._perceptron.Perceptron'> fot train | 50.9311 | 41.9229 |
+| <class 'sklearn.linear_model._perceptron.Perceptron'> fot test | 72.973 | 68.4317 |
+| <class 'sklearn.linear_model._perceptron.Perceptron'> fot train | 67.6064 | 59.8996 |
 |------------------------------|----------|----------|
-| <class 'sklearn.linear_model._base.LinearRegression'> fot test | 84.7973 | 85.303 |
-| <class 'sklearn.linear_model._base.LinearRegression'> fot train | 86.8715 | 87.0489 |
+| <class 'sklearn.linear_model._base.LinearRegression'> fot test | 84.9099 | 85.4158 |
+| <class 'sklearn.linear_model._base.LinearRegression'> fot train | 86.0638 | 86.2723 |
 |------------------------------|----------|----------|
-| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot test | 87.8378 | 87.6478 |
-| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot train | 88.9199 | 88.8426 |
+| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot test | 84.4595 | 84.4355 |
+| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot train | 88.5638 | 88.5111 |
 |------------------------------|----------|----------|
-| <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> fot test | 96.6216 | 96.628 |
+| <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> fot test | 96.8468 | 96.8706 |
 | <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> fot train | 100.0 | 100.0 |
 |------------------------------|----------|----------|
-| <class 'sklearn.svm._classes.SVC'> fot test | 92.2297 | 92.039 |
-| <class 'sklearn.svm._classes.SVC'> fot train | 95.6238 | 95.5942 |
+| <class 'sklearn.svm._classes.SVC'> fot test | 92.7928 | 92.632 |
+| <class 'sklearn.svm._classes.SVC'> fot train | 95.1596 | 95.1095 |
 |------------------------------|----------|----------|
-| <class 'sklearn.ensemble._forest.RandomForestClassifier'> fot test | 95.9459 | 95.9957 |
+| <class 'sklearn.ensemble._forest.RandomForestClassifier'> fot test | 96.3964 | 96.4281 |
 | <class 'sklearn.ensemble._forest.RandomForestClassifier'> fot train | 100.0 | 100.0 |
 |------------------------------|----------|----------|
 
 #### when tested on balnced test data:-
 |          Classifier          | Accuracy | F1 Score |
 |------------------------------|----------|----------|
-| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot test | 85.1399 | 84.9745 |
-| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot train | 88.9199 | 88.8426 |
+| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot test | 81.5476 | 81.4904 |
+| <class 'sklearn.linear_model._logistic.LogisticRegression'> fot train | 88.5638 | 88.5111 |
 |------------------------------|----------|----------|
-| <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> fot test | 98.2517 | 98.2507 |
+| <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> fot test | 98.3333 | 98.3355 |
 | <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> fot train | 100.0 | 100.0 |
 |------------------------------|----------|----------|
-| <class 'sklearn.svm._classes.SVC'> fot test | 91.0839 | 90.939 |
-| <class 'sklearn.svm._classes.SVC'> fot train | 97.1601 | 97.1503 |
+| <class 'sklearn.svm._classes.SVC'> fot test | 87.0238 | 86.6617 |
+| <class 'sklearn.svm._classes.SVC'> fot train | 97.1277 | 97.1149 |
 |------------------------------|----------|----------|
-| <class 'sklearn.ensemble._forest.RandomForestClassifier'> fot test | 97.2028 | 97.217 |
+| <class 'sklearn.ensemble._forest.RandomForestClassifier'> fot test | 94.7619 | 94.7667 |
 | <class 'sklearn.ensemble._forest.RandomForestClassifier'> fot train | 100.0 | 100.0 |
 |------------------------------|----------|----------|
