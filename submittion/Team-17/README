@@ -1,0 +1,12 @@
+# How to run:
+    1. move the `test.csv` to the same directory.
+    2. run    `python perform_inference.py`
+- u should find a fill called `preds.txt` in the same directory
+
+
+
+# analysis report link: 
+https://docs.google.com/document/d/1NOvNdWk7DaIkV671o1JR-_Vps-DzAxhhdIsoEa0Ijlg/edit?usp=sharing
+
+# presentation link:
+https://docs.google.com/presentation/d/1Bc6nWlFzwA9r43t2fEnNMeGLRx4VXmNF61vC7zJoYBw/edit?usp=sharing
