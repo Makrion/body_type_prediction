@@ -189,13 +189,13 @@ def test_model(classifier, x_train, y_train, x_test, y_test):
     print("     out of sample ( predict(test) ):")
     print("         accuracy:", classifier_accuracy)
     print("         weighted F1 score:", classifier_f1_score)
-    doc = [ [f'{str(type(classifier))} fot test', str(round(classifier_accuracy, 4)), str(round(classifier_f1_score, 4))] ]
+    doc = [ [f'{str(classifier.__class__.__name__)} fot test', str(round(classifier_accuracy, 4)), str(round(classifier_f1_score, 4))] ]
 
     classifier_accuracy, classifier_f1_score = predict(classifier, x_train, y_train_encoded)
     print("\n     in sample ( predict(train) ):")
     print("         accuracy:", classifier_accuracy)
     print("         weighted F1 score:", classifier_f1_score)
-    doc.append([f'{str(type(classifier))} fot train', str(round(classifier_accuracy, 4)), str(round(classifier_f1_score, 4))])
+    doc.append([f'{str(classifier.__class__.__name__)} fot train', str(round(classifier_accuracy, 4)), str(round(classifier_f1_score, 4))])
 
     return classifier, doc
 
